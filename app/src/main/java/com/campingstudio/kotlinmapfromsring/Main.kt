@@ -1,8 +1,8 @@
 
 fun main() {
-    var mapChar = mapOf("a" to "A","c" to "C","b" to "B","a" to "A")
+    var mapString = mapOf("a" to "A","c" to "C","b" to "B","a" to "A")
 
-    var strMap = mapChar.toString()
+    var strMap = mapString.toString()
     var strMap2 = ""
 
     for (i in 1 .. strMap.toCharArray().size-2) strMap2 += strMap.toCharArray()[i]
